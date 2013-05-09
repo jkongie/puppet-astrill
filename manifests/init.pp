@@ -7,7 +7,7 @@
 #  include astrill
 class astrill {
   package { 'Astrill':
-    provider => 'appdmg',
+    provider => 'compressed_app',
     source   => 'https://www.astrill.com/downloads/astrill-setup-mac.dmg?mirror=usa'
   }
 }
